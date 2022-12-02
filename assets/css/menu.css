@@ -1,0 +1,11 @@
+.menu__link {
+    color: #333333;
+    padding: .5rem 2rem;
+}
+
+.menu__link:hover,
+.otivo {
+    background: linear-gradient(to right, #4d2f85, #9234a5);
+    border-radius: 5px;
+    color: #ffffff;
+}

@@ -1,0 +1,29 @@
+.app {
+    background: url('../img/fundo02.jpg');
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: "cabecalho" "conteudo" "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    grid-area: cabecalho;
+    padding: 0 2rem;
+}
+
+.conteudo {
+    padding: 0 2rem;
+    grid-area: conteudo;
+}
+
+.rodape {
+    background: linear-gradient(to right, #4d2f85, #9234a5);
+    color: #ffffff;
+    grid-area: rodape;
+    font-size: .8rem;
+    padding: 1rem;
+    text-align: center;
+}
